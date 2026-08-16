@@ -1,6 +1,9 @@
 # minecraft-stress-test
 
-Automate the stress testing of your 1.21 Minecraft server with bots.
+## This is a fork of [PureGero Stress Tester](https://github.com/PureGero/minecraft-stress-test).
+## I have updated it to support 26.2.  See each Branch for each supported version.
+
+Automate the stress testing of your 26.1 Minecraft server with bots.
 This project will log offline-mode bots into the specified server which will
 fly around and explore the world.
 
@@ -9,7 +12,11 @@ fly around and explore the world.
 Download the source code with
 
 ```shell
-git clone https://github.com/PureGero/minecraft-stress-test.git
+26.1:
+git clone https://github.com/TMKCRepo/minecraft-stress-test.git --branch 26.1
+
+26.2:
+git clone https://github.com/TMKCRepo/minecraft-stress-test.git --branch 26.2
 ```
 
 Build the source code with
